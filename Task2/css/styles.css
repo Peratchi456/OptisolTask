@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12rem;
+    padding-right: 11.98rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 148px;
+    height: 58px;
+    background: transparent url('../assets/Logo.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+main {
+    background-color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    text-align: right;
+    font: normal normal normal 14px/20px Muli;
+    letter-spacing: 0.5px;
+    color: #1E202F;
+    opacity: 1;
+}
+
+.signup-btn {
+    text-align: center;
+    font: normal normal normal 14px/11px Muli;
+    letter-spacing: 0px;
+    color: #4099F1;
+    opacity: 1;
+    border: 1px solid #4099F1;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 11.98rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font: normal normal bold 64px/90px Merriweather;
+    letter-spacing: 0.45px;
+    color: #1E202F;
+    opacity: 1;
+}
+
+.hero h1 span {
+    background: #e0e4ff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.hero button {
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 144px;
+    height: 52px;
+    background: #4099F1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.hero .illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*css for Blog section*/
+.blog {
+    padding-left: 11.98rem;
+    margin-top: 20px;
+}
+
+.blog-line {
+    display: flex;
+    gap: 10px;
+}
+
+.short-line {
+    width: 32px;
+    height: 2px;
+    background-color: #4099F1;
+    border: none;
+}
+
+.blog h2 {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font: normal normal bold 14px/26px Muli;
+    letter-spacing: 1px;
+    color: #4099F1;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.arrow-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.left-arrow {
+    font-size: 52px;
+    width: 43px;
+    opacity: 0.2;
+    color: #4099F1;
+    cursor: pointer;
+    margin-left:60%;
+}
+
+.right-arrow {
+    font-size: 52px;
+    width: 43px;
+    opacity: 1;
+    color: #4099F1;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.blog h1 {
+    text-align: left;
+    font: normal normal bold 25px/26px Muli;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+.articles {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+article {
+    background: #fff;
+    overflow: hidden;
+    flex: 1;
+    width: 312px;
+    height: 487px;
+}
+
+article img {
+    max-width: 312px;
+    height: 322px;
+    /* border-bottom: 1px solid #ddd; */
+    background: transparent url('../assets/MaskGroup1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+
+}
+
+.author {
+    display: flex;
+    width: 133px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    top: -55px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    color: white;
+}
+
+
+.author img {
+    width: 32px;
+    height: 32px;
+    background: transparent url('img/Ellipse 24.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.author-info h3 {
+    width: 66px;
+    height: 15px;
+    text-align: left;
+    font: normal normal bold 12px/30px Merriweather;
+    letter-spacing: 0.25px;
+    color: #1E202F;
+    opacity: 1;
+    margin-left: 2.3px;
+
+}
+
+.author-info p {
+    width: 72px;
+    height: 10px;
+    text-align: left;
+    font: normal normal 300 8px/26px Muli;
+    letter-spacing: 0.25px;
+    color: #B2B2B2;
+    opacity: 1;
+    margin-left: 2px;
+
+}
+
+article h3 {
+    text-align: left;
+    font: normal normal 900 20px/30px Merriweather;
+    letter-spacing: 0.42px;
+    color: #1E202F;
+    opacity: 1;
+    width: 257px;
+}
+
+article p {
+    text-align: left;
+    font: normal normal normal 12px/23px Muli;
+    letter-spacing: 0.24px;
+    color: #888990;
+    opacity: 1;
+    width: 312px;
+    height: 70px;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 12rem;
+    padding-right: 11.98rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-top: 4rem;
+}
+
+.literm {
+    margin-left: 3rem;
+    text-align: left;
+    font: normal normal normal 16px / 26px Muli;
+    letter-spacing: 0.5px;
+    color: #212B36;
+    opacity: 1;
+}
+
+.lipri {
+    text-align: left;
+    font: normal normal normal 16px/26px Muli;
+    letter-spacing: 0.5px;
+    color: #212B36;
+    opacity: 1;
+    margin-left: 2.63rem;
+}
+
+.lireg {
+    text-align: right;
+    font: normal normal normal 16px/26px Muli;
+    letter-spacing: 0.5px;
+    color: #82868A;
+    opacity: 1;
+    margin-left: 10.15rem;
+}
